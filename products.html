@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar-->
+    <nav class="bg-green-100 p-3 flex justify-between items-center shadow-xl sticky top-0">
+        <h1 class="text-2xl font-bold">Greenden</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 md:hidden" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+    
+    
+        <ul class="flex gap-10 text-gray-500 hover:underline hidden md:flex">
+            <li class="hover:text-black">
+                <a href="./index.html">Home</a>
+            </li>
+            <li class="hover:text-black">
+                <a href="./products.html">Products</a>
+            </li>
+            <li class="hover:text-black">
+                <a href="./contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!--Products section-->
+    <section class="p-4 text-center m-5">
+        <h1 class="text-2xl font-medium">Our Products</h1>
+        <input type="text" placeholder="Search for a product" class="border-b-4 mt-3" style="width: 500px; border: 2px black solid; @media (max-width: 768px) { width: 90% !important; }">
+        <div class=" grid grid-cols-2 gap-5 md:grid-cols-4 mt-5">
+            <div>
+                <img src="./rose_pot_1.jpeg" alt="1st pot" class="inline">
+                <p>Rose Plant</p>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./4thpot.jpeg" alt="1st pot" class="inline">
+                <p>Lily Plant</p>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./rose_pot_1.jpeg" alt="1st pot" class="inline">
+                <p>Snake Plant</p>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./rose_pot_1.jpeg" alt="1st pot" class="inline">
+                <p>Hybrid Plant</p>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./rose_pot_1.jpeg" alt="1st pot" class="inline">
+                <p>Snake Plant</p>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./rose_pot_1.jpeg" alt="1st pot" class="inline">
+                <p>Snake Plant</p>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./rose_pot_1.jpeg" alt="1st pot" class="inline">
+                <p>Snake Plant</p>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./rose_pot_1.jpeg" alt="1st pot" class="inline">
+                <p>Snake Plant</p>
+                <p>$20</p>
+            </div>
+        </div>
+    </section>
+    <!--Footer-->
+    <section class="bg-green-100 p-10 flex flex-col gap-2">
+        <h1 class="text-4xl font-bold">Greenden</h1>
+        <p>The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those interest</p>
+    </section>
+</body>
+</html>
